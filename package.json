@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "start:cli": "sucrase-node src/cli.js",
+    "dev:api": "nodemon src/shared/http/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matheus Felicio de Almeida",
@@ -17,11 +18,15 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-promise": "^6.0.0",
+    "jest": "^28.1.0",
     "nodemon": "^2.0.16",
     "sucrase": "^3.21.0"
   },
   "dependencies": {
     "express": "^4.18.1",
-    "inquirer": "^8.2.4"
+    "express-async-errors": "^3.1.1",
+    "helmet": "^5.1.0",
+    "inquirer": "^8.2.4",
+    "morgan": "^1.10.0"
   }
 }
