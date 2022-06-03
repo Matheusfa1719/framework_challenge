@@ -4,9 +4,8 @@
   "description": "Desafio tecnico framework",
   "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
     "start:cli": "babel-node src/cli.js",
-    "dev:api": "nodemon --exec babel-node src/shared/http/server.js",
+    "start:api": "nodemon --exec babel-node src/shared/http/server.js",
     "test": "jest"
   },
   "author": "Matheus Felicio de Almeida",
